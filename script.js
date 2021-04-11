@@ -10,7 +10,7 @@ const addNewSite = function(event) {
 
   const aElem = $("<a>").attr("href",url).text(title);
   const liElem = $("<li>").append(aElem);
-  $("#site-list").append(liElem);
+  $("#site-list").append(liElem); 
 
 }
 

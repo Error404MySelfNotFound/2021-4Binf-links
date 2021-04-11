@@ -4,9 +4,9 @@ const addNewSite = function(event) {
   const url = $("#form-url").val();
   const title = $("#form-title").val();
   const category = $("#form-category").val();
-  console.log(url);
-  console.log(title);
-  console.log(category);
+  console.log("URL: " + url);
+  console.log("title: " + title);
+  console.log("category: " + category);
 
   const aElem = $("<a>").attr("href",url).text(title);
   const liElem = $("<li>").append(aElem);

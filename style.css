@@ -1,4 +1,8 @@
+body {
+  background-color: red;
+}
 input {
   display: block;
   margin-top: 15px;
+  background-color: aqua; 
 }
